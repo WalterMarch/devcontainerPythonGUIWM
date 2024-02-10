@@ -1,0 +1,27 @@
+{
+	"name": "devcontainer-python-gui",
+	"image": "mcr.microsoft.com/devcontainers/python:3",
+    "mounts": [
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind"
+	],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "${containerWorkspaceFolder}/.devcontainer/post-create.sh ${containerWorkspaceFolder}",	
+
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"settings" : {"editor.rulers": [72, 79]},
+			"extensions": [
+				"ms-vscode-remote.remote-wsl",
+				"eamodio.gitlens",
+				"streetsidesoftware.code-spell-checker",
+				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"ms-python.pylint",
+				"ms-python.black-formatter",
+				"DavidAnson.vscode-markdownlint"
+			]
+		}
+	},
+    "runArgs": ["-e DISPLAY=$DISPLAY"]
+}
