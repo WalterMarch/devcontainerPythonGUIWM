@@ -20,7 +20,7 @@ The following line in the `devcontainer.json` allows us to run a Python Tkinter 
 
 ## Run the Sample Code
 
-In the `/workspaces/devcontainer-python` directory, run this command:
+In the `/workspaces/devcontainer-python-gui` directory, run this command:
 
 ```bash
 python sample/tk_test.py
