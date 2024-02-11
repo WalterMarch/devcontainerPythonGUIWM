@@ -1,6 +1,6 @@
 # devcontainer-python-gui - Visual Studio Code devcontainer for Python and tkinter
 
-## Sample Dev Container file(s) for  and tkinter Python in VS Code Containerized Development
+## Sample Dev Container file(s) for Python and tkinter in VS Code Containerized Development
 
 *assumptions*: **As far as I know, Windows 11 Pro is the only operating system this actually works in.** Docker and VS Code installed as well as the Dev Containers extension for Visual Studio Code.
 
