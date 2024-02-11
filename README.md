@@ -1,4 +1,4 @@
-# GUI Devcontainer
+# Python GUI Devcontainer
 
 This devcontainer setup has been tested in Visual Studio Code on Windows 11 Pro.
 
