@@ -1,8 +1,8 @@
-# devcontainer-python-gui - Visual Studio Code devcontainer for Python and tkinter
+# devcontainerPythonGUIWM - Visual Studio Code devcontainer for Python and tkinter
 
 ## Sample Dev Container file(s) for  and tkinter Python in VS Code Containerized Development
 
-*assumptions*: **As far as I know, Windows 11 Pro is the only operating system this actually works in.** Docker and VS Code installed as well as the Dev Containers extension for Visual Studio Code.
+*assumptions*: Docker and VS Code installed as well as the Dev Containers extension for Visual Studio Code.
 
 *usage*: clone the repo then open in Visual Studio Code.
 
@@ -12,7 +12,7 @@ This devcontainer is based on the latest Python 3 image (`mcr.microsoft.com/devc
 
 `tk` is installed by `post-create.sh`.
 
-The following line in the `devcontainer.json` allows us to run a Python Tkinter GUI application on Windows 11 Pro from inside a VS Code devcontainer installation.
+The following line in the `devcontainer.json` allows us to run a Python Tkinter GUI application from inside a VS Code devcontainer installation.
 
 ```jsonc
     "runArgs": ["-e DISPLAY=$DISPLAY"]
@@ -20,10 +20,10 @@ The following line in the `devcontainer.json` allows us to run a Python Tkinter 
 
 ## Run the Sample Code
 
-In the `/workspaces/devcontainer-python` directory, run this command:
+In the `sample` directory, run this command:
 
 ```bash
-python sample/tk_test.py
+python tk_test.py
 ```
 
 ### miscellany
