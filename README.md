@@ -1,6 +1,6 @@
 # devcontainerPythonGUIWM - Visual Studio Code devcontainer for Python and tkinter
 
-## Sample Dev Container file(s) for  and tkinter Python in VS Code Containerized Development
+## Sample Dev Container file(s) for Python and tkinter  in VS Code Containerized Development
 
 *assumptions*: Docker and VS Code installed as well as the Dev Containers extension for Visual Studio Code.
 
